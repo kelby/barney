@@ -2,7 +2,7 @@
 # Script für intertops.com, nutzt die PDA-Version der Seite
 # Das Script scheint zu funktionieren, die Mannschaftsliste ist noch nicht komplett!?
 
-require 'helpers/urltools.rb'
+require './helpers/urltools.rb'
 
 class IntertopsScraper
 	def initialize(sports)

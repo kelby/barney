@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # Script zum Scrapen der Wetten von bwin.com
 
-require 'helpers/urltools.rb'
+require './helpers/urltools.rb'
 
 class BWinScraper
 	def initialize(sports)

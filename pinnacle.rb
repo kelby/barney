@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # Script zum Scrapen der Wetten von pinnaclesports.com
 
-require 'helpers/urltools.rb'
+require './helpers/urltools.rb'
 
 class PinnacleScraper
 	def initialize(sports)

@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # Script zum Scrapen der Wetten von expekt.com
 
-require 'helpers/urltools.rb'
+require './helpers/urltools.rb'
 
 class ExpektScraper
 	def initialize(sports)

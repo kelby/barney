@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # Script zum Scrapen der Wetten von sportingbet.com
 
-require 'helpers/urltools.rb'
+require './helpers/urltools.rb'
 
 class SportingbetScraper
 	def initialize(sports)

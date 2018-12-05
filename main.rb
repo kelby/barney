@@ -40,7 +40,7 @@ end
 # pinnacle:
 
 if(anbieter.include?("pinnacle"))
-	require 'pinnacle.rb'
+	require './pinnacle.rb'
 
 	s = PinnacleScraper.new(sports)
 	s.get_odds()
@@ -50,7 +50,7 @@ end
 # intertops:
 
 if(anbieter.include?("intertops"))
-	require 'intertops.rb'
+	require './intertops.rb'
 
 	s = IntertopsScraper.new(sports)
 	s.get_odds()
@@ -60,7 +60,7 @@ end
 # expekt:
 
 if(anbieter.include?("expekt"))
-	require 'expekt.rb'
+	require './expekt.rb'
 
 	s = ExpektScraper.new(sports)
 	s.get_odds()
@@ -70,7 +70,7 @@ end
 # bwin:
 
 if(anbieter.include?("bwin"))
-	require 'bwin.rb'
+	require './bwin.rb'
 
 	s = BWinScraper.new(sports)
 	s.get_odds()
@@ -80,7 +80,7 @@ end
 # sportingbet:
 
 if(anbieter.include?("sportingbet"))
-	require 'sportingbet.rb'
+	require './sportingbet.rb'
 
 	s = SportingbetScraper.new(sports)
 	s.get_odds()
@@ -90,7 +90,7 @@ end
 # bet-at-home:
 
 if(anbieter.include?("bet-at-home"))
-	require 'bet-at-home.rb'
+	require './bet-at-home.rb'
 
 	s = BetathomeScraper.new(sports)
 	s.get_odds()

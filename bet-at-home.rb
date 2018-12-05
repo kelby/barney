@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # Script zum Scrapen der Wetten von bet-at-home.com
 
-require 'helpers/urltools.rb'
+require './helpers/urltools.rb'
 
 class BetathomeScraper
 	def initialize(sports)
