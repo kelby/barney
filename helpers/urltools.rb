@@ -14,6 +14,16 @@ def post_request(url, postbody, headers={})
 
   req.set_content_type("application/x-www-form-urlencoded")
   req.body = postbody
+
+  puts "---------BEGIN---------"
+  puts "url.host"
+  puts url.host
+  puts "url.port"
+  puts url.port
+  puts "req"
+  puts req
+  puts "---------END---------"
+
   res = Net::HTTP.new(url.host, url.port).start { |http| http.request(req) }
 
   case res
